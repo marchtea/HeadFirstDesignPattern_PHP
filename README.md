@@ -6,9 +6,10 @@ All these code are written when I read this book.
 
 ##Paterns
 
-As I haven't read through this book, so now only contains patterns below:
+As I haven't read through this book, now repo only contains patterns below:
 
 *	[Abstract Factory](AbstractFactory)
+*	[Command](Command)
 *	[Factory Method](FactoryMethod)
 *	[Simple Factory](SimpleFactory)
 *	[Singleton](Singleton)
