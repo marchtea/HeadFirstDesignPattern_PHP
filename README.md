@@ -17,6 +17,7 @@ As I haven't read through this book, now repo only contains patterns below:
 *	[Iterator(Chapter 9)](Iterator)
 *	[Simple Factory(Chapter 4)](SimpleFactory)
 *	[Singleton(Chapter 5)](Singleton)
+*	[State(Chapter 10)](State)
 *	[Stragety(Chapter 1)](Stragety)
 *	[Template(Chapter 8)](Template)
 
