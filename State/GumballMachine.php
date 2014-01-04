@@ -6,6 +6,7 @@ require_once('HasQuarterState.php');
 require_once('NoQuarterState.php');
 require_once('SoldOutState.php');
 require_once('SoldState.php');
+require_once('WinnerState.php');
 
 
 class GumballMachine
@@ -14,6 +15,7 @@ class GumballMachine
 	private $noQuarterState;
 	private $hasQuarterState;
 	private $soldState;
+	private $winnerState;
 
 	private $state;
 	private $count = 0;
@@ -24,6 +26,7 @@ class GumballMachine
 		$this->noQuarterState = new NoQuarterState($this);
 		$this->hasQuarterState = new hasQuarterState($this);
 		$this->soldState = new SoldState($this);
+		$this->winnerState = new WinnerState($this);
 		$this->count = $numberGumballs;
 		if ($numberGumballs > 0)
 		{
@@ -84,6 +87,11 @@ class GumballMachine
 	public function getSoldOutState()
 	{
 		return $this->soldOutState;
+	}
+
+	public function getWinnerState()
+	{
+		return $this->winnerState;
 	}
 }
 ?>
